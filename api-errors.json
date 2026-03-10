@@ -1,0 +1,60 @@
+[
+  {
+    "timestamp": "2026-03-10T06:54:57.266Z",
+    "chatId": "5611818251",
+    "msgType": "A03",
+    "endpoint": "http://localhost:9099/integration/processEvent",
+    "status": 400,
+    "error": "400 ",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100654||ADT^A03|1773125694287|P|2.2\rEVN|A03|202603100654\rPID|1||123456^^^PAS^PI||Luxana^Demacia||20031010|F|||Ho Chi Minh City\rPV1|1|I|^^^92833|||||92833|||||||||||9828321|||||||||||||||||||||||||202603100654|"
+  },
+  {
+    "timestamp": "2026-03-10T07:41:48.128Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099/integration/processEvent",
+    "error": "Request failed with status code 404",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100741||ADT^A01|1773128506911|P|2.2\rEVN|A01|202603100741\rPID|1||182355^^^PAS^PI||Huynh Minh^Tam||20011012|F|||Long an\rPV1|1|I|opmf^^^fake ward|||||fake ward|||||||||||982731|||||||||||||||||||||||||202603100741|"
+  },
+  {
+    "timestamp": "2026-03-10T08:02:30.145Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099/integration/processEvent",
+    "error": "Request failed with status code 404",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100802||ADT^A01|1773129748728|P|2.2\rEVN|A01|202603100802\rPID|1||182355^^^PAS^PI||Huynh^Tam||20021014|M|||sadsa\rPV1|1|I|opmf^^^fake ward|||||fake ward|||||||||||982731|||||||||||||||||||||||||202603100802|"
+  },
+  {
+    "timestamp": "2026-03-10T08:07:46.532Z",
+    "chatId": "5611818251",
+    "msgType": "A03",
+    "endpoint": "http://45.76.191.138:9099/integration/processEvent",
+    "error": "Request failed with status code 404",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100807||ADT^A03|1773130065512|P|2.2\rEVN|A03|202603100807\rPID|1||182355^^^PAS^PI||Huynh^Tam||20021014|M|||lasdkas\rPV1|1|I|opmf^^^fake ward|||||fake ward|||||||||||982731|||||||||||||||||||||||||202603100807|"
+  },
+  {
+    "timestamp": "2026-03-10T08:12:43.595Z",
+    "chatId": "5611818251",
+    "msgType": "A03",
+    "endpoint": "http://45.76.191.138:9099",
+    "error": "Request failed with status code 400",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100812||ADT^A03|1773130362362|P|2.2\rEVN|A03|202603100812\rPID|1||982731^^^PAS^PI||Huynh^Tam||20021010|M|||askhjdahjs\rPV1|1|I|.^^^.|||||.|||||||||||182355|||||||||||||||||||||||||202603100812|"
+  },
+  {
+    "timestamp": "2026-03-10T08:15:06.147Z",
+    "chatId": "5611818251",
+    "msgType": "A03",
+    "endpoint": "http://45.76.191.138:9099",
+    "error": "Request failed with status code 400",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100815||ADT^A03|1773130505123|P|2.2\rEVN|A03|202603100815\rPID|1||182355^^^PAS^PI||.^.||.|.|||.\rPV1|1|I|.^^^.|||||.|||||||||||982731|||||||||||||||||||||||||202603100815|"
+  },
+  {
+    "timestamp": "2026-03-10T08:18:51.803Z",
+    "chatId": "5611818251",
+    "msgType": "A03",
+    "endpoint": "http://45.76.191.138:9099",
+    "status": 200,
+    "error": "200 ",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100818||ADT^A03|1773130730699|P|2.2\rEVN|A03|202603100818\rPID|1||182355^^^PAS^PI||.^.||.|.|||.\rPV1|1|I|.^^^.|||||.|||||||||||982731|||||||||||||||||||||||||202603100818|202603100818|"
+  }
+]
