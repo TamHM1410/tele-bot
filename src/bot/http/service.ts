@@ -33,3 +33,4 @@ export const sendHL7ToApi = async (
     throw error;
   }
 };
+ 

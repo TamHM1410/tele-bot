@@ -1,6 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api';
 import dotenv from 'dotenv';
-import { SetUpBot } from './bot-fol/index';
+import { SetUpBot } from './bot/index';
 
 dotenv.config();
 

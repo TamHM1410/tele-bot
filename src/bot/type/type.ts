@@ -1,4 +1,4 @@
-import { Flow } from "../../flows";
+import { Flow } from "../constant/constant";
 
 export type ManualSession = {
   mode: "manual";

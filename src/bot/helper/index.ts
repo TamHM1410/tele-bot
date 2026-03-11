@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import TelegramBot from "node-telegram-bot-api";
-import { extractMsgType, extractWard } from "../../flows";
+import { extractMsgType, extractWard } from "../constant/constant";
 import { FlowSession } from "../type/type";
 import { sendHL7ToApi } from "../http/service";
 
