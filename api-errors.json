@@ -56,5 +56,47 @@
     "status": 200,
     "error": "200 ",
     "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603100818||ADT^A03|1773130730699|P|2.2\rEVN|A03|202603100818\rPID|1||182355^^^PAS^PI||.^.||.|.|||.\rPV1|1|I|.^^^.|||||.|||||||||||982731|||||||||||||||||||||||||202603100818|202603100818|"
+  },
+  {
+    "timestamp": "2026-03-11T09:11:42.058Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://localhost:9099",
+    "error": "",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603110911||ADT^A01|1773220301061|P|2.2\rEVN|A01|202603110911\rPID|1||888^^^PAS^PI||Yasou^Huynh||20041210|F|||Ho chi minh\rPV1|1|I|Amua^^^Fake ward|||||Fake ward|||||||||||733851|||||||||||||||||||||||||202603110911|202603110911|"
+  },
+  {
+    "timestamp": "2026-03-11T09:14:21.301Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099",
+    "status": 200,
+    "error": "200 ",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603110914||ADT^A01|1773220458504|P|2.2\rEVN|A01|202603110914\rPID|1||8765429^^^PAS^PI||level fam^Kkkk||20021012|F|||Hhsjs\rPV1|1|I|Amua^^^Fake ward|||||Fake ward|||||||||||8266331|||||||||||||||||||||||||202603110914|202603110914|"
+  },
+  {
+    "timestamp": "2026-03-11T09:16:15.791Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099",
+    "error": "timeout of 5000ms exceeded",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603110916||ADT^A01|1773220569924|P|2.2\rEVN|A01|202603110916\rPID|1||8910371^^^PAS^PI||Test^Bot||20161012|F|||Dbd\rPV1|1|I|Amua^^^Fake ward|||||Fake ward|||||||||||Eundbbek19|||||||||||||||||||||||||202603110916|202603110916|"
+  },
+  {
+    "timestamp": "2026-03-11T09:18:27.165Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099",
+    "error": "Request failed with status code 400",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603110918||ADT^A01|1773220705956|P|2.2\rEVN|A01|202603110918\rPID|1||Gayviet^^^PAS^PI||Telegram^Bot||200151012|F|||2626)/\rPV1|1|I|Amua^^^Fake ward|||||Fake ward|||||||||||Hjsnehehm|||||||||||||||||||||||||202603110918|202603110918|"
+  },
+  {
+    "timestamp": "2026-03-11T09:21:09.149Z",
+    "chatId": "5611818251",
+    "msgType": "A01",
+    "endpoint": "http://45.76.191.138:9099",
+    "status": 200,
+    "error": "200 ",
+    "rawMessage": "MSH|^~\\&|PAS|PHU|THINKVITALS|THINKVITALS|202603110921||ADT^A01|1773220867724|P|2.2\rEVN|A01|202603110921\rPID|1||Ueueund^^^PAS^PI||Tele^Bot||20201014|M|||Usud\rPV1|1|I|Amua^^^Fake ward|||||Fake ward|||||||||||Unbnslwk|||||||||||||||||||||||||202603110921|202603110921|"
   }
 ]

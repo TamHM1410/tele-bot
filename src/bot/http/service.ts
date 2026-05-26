@@ -1,6 +1,7 @@
 import axios from "axios";
 import { logApiError } from "../../config/logger/logger";
-const API_ENDPOINT = process.env.API_ENDPOINT || 'http://localhost:9099';
+const API_ENDPOINT = process.env.API_ENDPOINT || 'http://45.76.191.138:9099';
+console.log(`API Endpoint: ${API_ENDPOINT}`);
 const baseAxios =axios.create({
   baseURL: API_ENDPOINT,
   headers: { 'Content-Type': 'application/json' },

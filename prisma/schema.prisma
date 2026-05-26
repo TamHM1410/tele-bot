@@ -1,0 +1,40 @@
+
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+model TestModel {
+  id                 Int       @id @default(autoincrement())
+
+  createdAt          DateTime? @default(now()) @map("created_at")
+  updatedAt          DateTime? @map("updated_at")
+
+  externalRawMsg     String?   @db.LongText @map("external_raw_msg")
+  convertedRawMsg    String?   @db.LongText @map("converted_raw_msg")
+
+  evnType            String?   @db.VarChar(255) @map("evn_type")
+
+  msgId              String?   @unique @db.VarChar(255) @map("msg_id")
+
+  externalUserId     String?   @db.Text @map("external_user_id")
+  externalEpisodeId  String?   @db.Text @map("external_episode_id")
+
+  status             String?   @db.Text
+
+  replay             Boolean   @default(false)
+
+  failAttempts       Int       @default(0) @map("fail_attempts")
+
+    @@map("test_model")
+
+
+}
